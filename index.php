@@ -17,8 +17,8 @@ $subdomain = $host[0];
 
 $shop = $subdomain;
 
-$token = "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"; //access token 
-$shopUrl='namrata-shakya.myshopify.com'; //shop-url
+$token = "accesss token"; //access token 
+$shopUrl='shop url'; //shop-url
 
 class ProductCreation
 {
