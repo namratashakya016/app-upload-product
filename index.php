@@ -20,26 +20,6 @@ $shop = $subdomain;
 $token = "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"; //access token 
 $shopUrl='namrata-shakya.myshopify.com'; //shop-url
 
-
-?>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-<div class="container">
-<h3>New Product Add</h3>
-<form method="GET" action="" >
-<lable>For Add New products :- </lable>
-<button type="button" value='1' name="btnA" class="btn btn-primary">click Here</button>
-    </form><br><br><br>
-</div>
-<?php
- if(isset($_GET['btnA'])){
-    $ab= $_GET['btnA'];
-     echo $ab;
-     
- }
-
-
-
-
 class ProductCreation
 {
 
